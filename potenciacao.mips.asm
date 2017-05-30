@@ -25,10 +25,10 @@ potencia:
         # chama a rotina "finalizacao"
         j finalizacao                   		# vai para o final
         
- # rotina recursiva respons?vel pelo c?lculo da potenciacao
+ # rotina recursiva responsavel pelo calculo da potenciacao
 execucao:
  	# abre um espaco de 8 bits na pilha
- 	# salva a base e o endere?o de retorno na pilha e
+ 	# salva a base e o endereco de retorno na pilha e
         subu $sp,$sp,8 
         sw $a0,4($sp)             
         sw $ra,0($sp)
